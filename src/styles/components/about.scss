@@ -1,0 +1,46 @@
+.about {
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+
+    .box {
+        width: 100%;
+        display: flex;
+
+        @include media("<=tablet") {
+            flex-flow: column wrap;
+        }
+
+        &-children {
+            margin-left: 200px;
+
+            @include media("<=tablet") {
+                margin-left: 0;
+            }
+
+            .education {
+                margin-top: 40px;
+            }
+        }
+
+        .info {
+            width: 25%;
+
+            @include media("<=tablet") {
+                width: 100%;
+            }
+        }
+    }
+
+    .about-label {
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    .about-text {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 18px;
+    }
+}
