@@ -15,7 +15,7 @@ const caseStudies = [
     {
         id: 1,
         subtitle:
-            "ReactJS, Redux Toolkit, Axios, Strapi, MongoDB, React Hook Form (Yup Validation), React Router Dom...",
+            "ReactJS, Redux Toolkit, Axios, Strapi, MongoDB, React Hook Form (Yup Validation), React Router Dom, Material UI...",
         title: "TodoList App",
         img: "todos-img",
         url: "https://todo-app-fawn-three.vercel.app/",
@@ -24,7 +24,7 @@ const caseStudies = [
         id: 2,
         title: "Ecommerce Shop",
         subtitle:
-            "ReactJS, Redux Toolkit, Axios, Strapi, React Hook Form (Yup Validation), React Router Dom...",
+            "ReactJS, Redux Toolkit, Axios, Strapi, React Hook Form (Yup Validation), React Router Dom, Material UI...",
         img: "ecomerce-img",
         url: "https://shop-redux-app.vercel.app/",
     },
