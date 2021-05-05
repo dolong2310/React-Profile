@@ -1,6 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import { ReactComponent as RightArrow } from "../assets/arrow-right.svg";
 
 const Banner = () => {
     return (

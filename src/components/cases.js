@@ -1,17 +1,12 @@
 import React from "react";
-import { ReactComponent as CasesNext } from "../assets/arrow-right.svg";
-import { ReactComponent as CasesPrev } from "../assets/arrow-left.svg";
 // import Swiper core and required modules
-import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from "swiper";
-
-import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
-import "swiper/swiper.scss";
+import SwiperCore, { A11y, Navigation, Pagination, Scrollbar } from "swiper";
 import "swiper/components/navigation/navigation.scss";
 import "swiper/components/pagination/pagination.scss";
 import "swiper/components/scrollbar/scrollbar.scss";
-import { Link } from "react-router-dom";
+import { Swiper, SwiperSlide } from "swiper/react";
+// Import Swiper styles
+import "swiper/swiper.scss";
 
 // install Swiper modules
 SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
@@ -70,8 +65,8 @@ const Cases = () => {
                         onSlideChange={() => console.log("slide change")}
                         className="row"
                     >
-                        {caseStudies.map((caseItem) => (
-                            <SwiperSlide>
+                        {caseStudies.map((caseItem, index) => (
+                            <SwiperSlide key={index}>
                                 <a href={caseItem.url} className="case-link">
                                     <div className="case" key={caseItem.id}>
                                         <div className="case-details">
