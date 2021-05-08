@@ -48,16 +48,16 @@ const About = () => {
         },
         {
             value:
-                "Got new brothers and friends, create relationships and have a good spirit of working",
+                "Have new brothers and friends, create relationships and have a good spirit of working",
         },
     ];
 
     const interests = [
         {
-            value: "Read newspapers to learn new technologies",
+            value: "Read news about new hardware / software technologies",
         },
         {
-            value: "Aquatic shrimp farming",
+            value: "Aquaculture",
         },
     ];
 
